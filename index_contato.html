@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_inicio.css">
+    <title>Sobre</title>
+</head>
+
+<body class="conteudo">
+    <!-- Início do Header -->
+    <header>
+        <section class="linha">
+            <img src="img/logo.png" alt="Logomarca da empresa Company"  width="200px">
+               
+            <!-- Início do menu -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index_inicio.html">Início</a>
+                    </li>
+                    <li>
+                        <a class="botao_destaque" href="index_contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Fim do menu -->
+        </section>
+    </header>
+    <!-- Fim do Header -->
+
+    <!-- Início do Main -->
+    <main>
+        <!-- Início da Section do conteúdo do site -->
+        <section class="sobre">
+            <!-- Conteúdo de texto sobre o site -->
+            <article>
+                <h1>Contato</h1>
+                <h2>Landing Page</h2>
+                <p>Preencha os dados abaixo e envie sua mensagem de contato.</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris.
+                    Arcu cursus euismod quis viverra nibh cras.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Auctor elit sed vulputate mi sit amet mauris.
+                    Arcu cursus euismod quis viverra nibh cras.
+                </p>
+
+            </article>
+            <!-- Fim do conteúdo de texto sobre o site -->
+
+                <fieldset>
+                    <!-- <legend>
+                        <h5>Dados de Contato</h5>
+                    </legend> -->
+
+                    <form  id="form_inscricao" action="#" method="post">
+
+                        <div class="rotulo">
+                            <label>Nome:</label><br>
+                            <input class="entrada" type="text" required="required" id="txt_nome" maxlength="100" size="70">
+                        </div>
+
+                        <div class="rotulo">
+                            <label>Data de Nascimento:</label><br>
+                            <input class="entrada" type="date" required="required" id="txt_nascimento">
+                        </div>
+
+                        <!-- <label>Sexo:</label><br>
+                        <input type="radio" name="select" value="Feminino" required="required"> 
+                        <label>Feminino</label>
+                        <input type="radio" name="select" value="Masculino" required="required"> 
+                        <label>Masculino</label>
+                        <br><br>  Precisam ter o mesmo name -->
+
+                        
+                        <!-- <label>Endereço:</label><br>
+                        <input type="text" required="required" id="txt_nome" maxlength="100" size="50">
+                        <br><br> -->
+
+                        <!-- <label>Estado:</label><br>
+                        <select id="form_estado" required="required">
+                            <option value="">-Selecione-</option> 
+                            <option value="1">SE</option>
+                            <option value="2">MG</option>
+                            <option value="3">RJ</option>
+                        </select><br><br> -->
+
+                        <!-- <label>Cidade:</label><br>
+                        <select id="form_cidade" required="required">
+                            <option value="">-Selecione-</option>
+                            <option value="1">Aracaju</option>
+                            <option value="1">Itabaiana</option>
+                            <option value="2">Araxá</option>
+                            <option value="1">Uberlândia</option>
+                            <option value="3">Rio das Ostras</option>
+                            <option value="1">Macaé</option>
+                        </select><br><br> -->
+
+                        <div class="rotulo">
+                        <label>Celular:</label><br>
+                        <input class="entrada" type="tel" required="required" name="txt_cel" size="70" placeholder="(##) #####-####" maxlength="15">
+                        </div>
+                        
+                        <div class="rotulo">
+                        <label>E-mail:</label><br>
+                        <input class="entrada" type="email" required="required" id="txt_email" size="70">
+                        </div>
+
+                        
+                        <!-- <label>Áreas de Interesse:</label><br>
+                        <input type="checkbox" value="html" name="area_html">
+                        <label>HTML</label>
+                        <input type="checkbox" value="CSS" name="area_css">
+                        <label>CSS</label>
+                        <input type="checkbox" value="JavaScript" name="area_javascript">
+                        <label>JavaScript</label><br><br> -->
+
+                        <div class="rotulo">
+                        <label>Mensagem:</label><br>
+                        <textarea class="entrada" cols="70" rows="5" required="required"></textarea>
+                        </div>
+
+                        <div>
+                        <input class="agrupamento_botao" type="submit" id="btn_enviar" value="Enviar Formulário">
+                        </div>
+
+                    </form>
+                </fieldset>
+
+            
+        </section>
+        <!-- Fim da Section do conteúdo do site -->
+    </main>
+    <!-- Fim do Main -->
+
+    <!-- Início do Footer -->
+    <footer>
+        <!-- Início das Redes Sociais -->
+        <ul class="linha">
+            <li>
+                <a href="#">
+                    <img src="./img/logo-insta.png" alt="Logo do Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/logo-twitter.png" alt="Logo do Twitter">
+                </a>
+            </li>
+            <li>
+                <a src="#">
+                    <img src="./img/logo-facebook.png" alt="Logo do Facebook">
+                </a>
+            </li>
+        </ul>
+        <!-- Fim das Redes Sociais -->
+    </footer>
+    <!-- Fim do Footer -->
+
+</body>
+</html>
