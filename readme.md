@@ -32,8 +32,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Landing Page da empresa "x" com tags Semânticas
 
-- [Visite o projeto online](https://victoriamagalhaes.github.io/desafio-nlwSetup/)
-
 
 ## :memo: Licença
 
